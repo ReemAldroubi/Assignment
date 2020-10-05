@@ -4,7 +4,7 @@ using NUnit.Framework;
 
 namespace Triangle_Assignment1_test
 {
-    // [TestFixture]
+     [TestFixture]
     public class Triangle_Assignmet1_Test
     {
         //testcase1 : (a+b=c)
@@ -23,7 +23,7 @@ namespace Triangle_Assignment1_test
             //Assert
             Assert.AreEqual(expected, actual);
         }
-        /*
+        
         //testcase 2:( a+c<=b)
         [Test]
         public void AnalyzeTriangle_Input5and11and5_outputNotTri()
@@ -136,7 +136,7 @@ namespace Triangle_Assignment1_test
             //Assert
             Assert.AreEqual(expected, actual);
         }
-      */
+      
 
 
     }
